@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Kepo</string>
+    <string name="copyright">©2020 by Mobile Team</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="todo">TODO</string>
+    <string name="make_stalking_easier">Make stalking easier</string>
+    <string name="login">Login</string>
+    <string name="my_todo">My Todo</string>
+    <string name="search_todo">Search Todo</string>
+    <string name="search_user">Search User</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="no_data">No Data</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="your_todo_will_be_visible_to_others">Your Todo will be visible to others</string>
+    <string name="here_are_all_your_todos">Here are all your todos!</string>
+    <string name="search_todo_text">Search Todo..</string>
+    <string name="by_user">by User</string>
+    <string name="by_todo">by Todo</string>
+    <string name="search_user_text">Search User...</string>
+    <string name="detail_todo">Detail Todo</string>
+    <string name="last_edited">Last Edited</string>
+    <string name="title_text">Title</string>
+    <string name="description_text">Description</string>
+</resources>

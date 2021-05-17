@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_marginBottom="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/welcome_header"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/btnSearchTodo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMyTodo"
+            android:layout_height="72dp"
+            android:layout_marginTop="96dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:drawableLeft="@drawable/todo"
+            android:drawableRight="@drawable/todo"
+            android:text="@string/my_todo"
+            android:textAllCaps="false"
+            android:textColor="@color/material_on_background_emphasis_medium"
+            app:backgroundTint="@color/design_default_color_surface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSearchTodo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="72dp"
+            android:drawableLeft="@drawable/search"
+            android:drawableRight="@drawable/search"
+            android:text="@string/search_todo"
+            android:textAllCaps="false"
+            android:textColor="@color/material_on_background_emphasis_medium"
+            app:backgroundTint="@color/design_default_color_surface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnMyTodo" />
+
+        <Button
+            android:id="@+id/btnSearchUser"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="72dp"
+            android:drawableLeft="@drawable/people"
+            android:drawableRight="@drawable/people"
+            android:text="@string/search_user"
+            android:textAllCaps="false"
+            android:textColor="@color/material_on_background_emphasis_medium"
+            app:backgroundTint="@color/design_default_color_surface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSearchTodo" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="72dp"
+            android:drawableLeft="@drawable/face"
+            android:drawableRight="@drawable/face"
+            android:text="@string/profile"
+            android:textAllCaps="false"
+            android:textColor="@color/material_on_background_emphasis_medium"
+            app:backgroundTint="@color/design_default_color_surface"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSearchUser" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#0D43CA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
